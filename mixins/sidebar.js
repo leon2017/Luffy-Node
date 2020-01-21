@@ -5,7 +5,10 @@ export default {
         dashboard: '首页',
         manager: '管理',
         'manager-control': '权限管理',
-        'manager-setting': '权限设置'
+        'manager-setting': '权限设置',
+        international: '国际化',
+        'international-control': '国际化',
+        'international-control2': '国际化2'
       }[title]
     },
     mapIcon(icon) {
@@ -14,7 +17,10 @@ export default {
         dashboard: 'tachometer-alt',
         manager: 'cog',
         'manager-control': 'scroll',
-        'manager-setting': 'dice-d20'
+        'manager-setting': 'dice-d20',
+        international: 'cog',
+        'international-control': 'scroll',
+        'international-control2': 'dice-d20'
       }[icon]
     },
     mapVisit(title, store = null) {

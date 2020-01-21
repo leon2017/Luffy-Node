@@ -50,7 +50,7 @@
 </style>
 
 <template>
-  <div id="todo-nav">
+  <div id="todo-nav" style="display: none">
     <span class="todo-item level-0">
       测试
     </span>

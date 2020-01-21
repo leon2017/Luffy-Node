@@ -1,5 +1,5 @@
 <template>
   <div id="dashboard">
-    hello world
+    路飞
   </div>
 </template>
